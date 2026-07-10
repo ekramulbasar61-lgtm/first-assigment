@@ -1,4 +1,3 @@
-
 /* nav start */
 * {
     margin: 0;
@@ -35,6 +34,11 @@
     font-family: "Arimo", sans-serif;
 }
 
+.common-btn button:hover {
+    background-color: black;
+}
+
+
 /* banner css */
 .meeting img {
     position: relative;
@@ -50,24 +54,26 @@
     bottom: 800px;
     left: 20px;
     color: #FFFFFF;
-      font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 
 }
 
-.banner-text h2{
+.banner-text h2 {
     font-size: 110px;
 }
-.banner-text h6{
+
+.banner-text h6 {
     font-size: 30px;
 }
-.common-btn-2{
-     display: flex;
+
+.common-btn-2 {
+    display: flex;
     justify-content: center;
 }
 
-.common-btn-2 button{
+.common-btn-2 button {
     position: relative;
-    top: -280px;
+    top: -300px;
     color: white;
     background-color: #1D4ED8;
     height: 60px;
@@ -77,33 +83,200 @@
     font-family: "Arimo", sans-serif;
     font-size: 20px;
 }
+
+.common-btn-2 button:hover {
+    background-color: black
+}
+
 /* speakrs info */
 
 
-.heading p{
-    font-size: 150px;
+
+.heading p {
+    font-size: 80px;
+    font-weight: bold;
     text-align: center;
-    margin-bottom:70px; 
+    margin-bottom: 70px;
     margin-top: -200px;
+    font-family: "Inter", sans-serif;
 }
 
 .speaker-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr );
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.speaker{
+
+.speaker {
     padding: 30px;
     text-align: center;
     border-radius: 10px;
 
 }
-.speaker h2{
-    color: #1D4ED8;
+
+.speaker h2 {
+    color: #2563EB;
 }
-.speaker h2,h1,h3{
+
+.speaker h1 {
+    font: bold;
+}
+
+.speaker h3 {
+    color: #575757;
+}
+
+.speaker h2,
+h1,
+h3 {
     margin-left: 50px;
     padding: 5px;
     text-align: left;
+    font-family: "Inter", sans-serif;
 }
 
+/* price cards css */
+.standard{
+    text-align: start;
+}
+.head h3,
+h6 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.head h3 {
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+}
+
+.head h6 {
+    font-size: 15px;
+    margin-bottom: 50px;
+    color: #575757;
+    font-family: "Inter", sans-serif;
+
+}
+/* card */
+.parent {
+    max-width: 80px 0;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.standard,
+.pro,
+.team {
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+    border: 2px solid;
+
+}
+
+.standard hr,
+.pro hr,
+.team hr {
+    margin: 20px 0;
+}
+
+.standard ul,
+.pro ul,
+.team ul {
+    padding-left: 20px;
+    
+}
+
+.standard,
+.pro,
+.team {
+
+    text-align: left;
+
+}
+
+.standard li,
+.pro li,
+.team li {
+    margin-bottom: 10px;
+}
+
+.pro {
+    color: white;
+    background-color: #164d8d;
+    
+}
+.pro h1, .standard h1, .team h1{
+    font-size: 10px;
+    text-align:start;
+    
+}
+.pro h2, .standard h2, .team h2{
+    text-align: left;
+    margin-left: 30px;
+    padding-left: 0;
+}
+
+
+
+/* button */
+.pro-button {
+    display: block;
+    margin: 20px auto;
+    margin-top: 60px;
+    color: white;
+    background-color: #1D4ED8;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+
+}
+
+.pro-button:hover {
+    background-color: black;
+}
+
+.standard-btn {
+    display: block;
+    margin: 30px auto;
+    margin-top: 60px;
+    color: blue;
+    background-color: white;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+}
+
+.standard-btn:hover {
+    background-color: black;
+}
+
+.team-button {
+    display: block;
+    margin: 30px auto;
+    margin-top: 60px;
+    color: blue;
+    background-color: white;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+}
+
+.team-button:hover {
+    background-color: black;
+}
