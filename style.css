@@ -1,0 +1,80 @@
+
+/* nav start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: "Arimo", sans-serif;
+
+
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: #575757;
+
+}
+
+.common-btn button {
+    margin-bottom: 20px;
+    color: white;
+    background-color: #1D4ED8;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Arimo", sans-serif;
+}
+
+/* banner css */
+.meeting img {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    text-align: center;
+    position: relative;
+    bottom: 800px;
+    left: 20px;
+    color: #FFFFFF;
+      font-family: "Inter", sans-serif;
+
+}
+
+.banner-text h2{
+    font-size: 110px;
+}
+.banner-text h6{
+    font-size: 30px;
+}
+.common-btn-2{
+     display: flex;
+    justify-content: center;
+}
+
+.common-btn-2 button{
+    position: relative;
+    top: -280px;
+    color: white;
+    background-color: #1D4ED8;
+    height: 60px;
+    width: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+}
+/* speakrs info */
