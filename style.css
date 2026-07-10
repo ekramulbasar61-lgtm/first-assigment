@@ -78,3 +78,32 @@
     font-size: 20px;
 }
 /* speakrs info */
+
+
+.heading p{
+    font-size: 150px;
+    text-align: center;
+    margin-bottom:70px; 
+    margin-top: -200px;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    gap: 20px;
+}
+.speaker{
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.speaker h2{
+    color: #1D4ED8;
+}
+.speaker h2,h1,h3{
+    margin-left: 50px;
+    padding: 5px;
+    text-align: left;
+}
+
