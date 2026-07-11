@@ -90,8 +90,6 @@
 
 /* speakrs info */
 
-
-
 .heading p {
     font-size: 80px;
     font-weight: bold;
@@ -110,6 +108,7 @@
 .speaker {
     padding: 30px;
     text-align: center;
+    border: 1px solid #D1D5DB;
     border-radius: 10px;
 
 }
@@ -168,6 +167,7 @@ h6 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+   font-family: "Inter", sans-serif;
 }
 
 .standard,
