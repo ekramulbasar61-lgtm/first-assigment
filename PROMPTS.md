@@ -1,0 +1,1 @@
+Build a clean and minimal footer section for DevConf 2026 using HTML and CSS. Include copyright text, social icons, and policy links.
